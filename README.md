@@ -45,7 +45,6 @@ This repository is a collection of 200 carefully selected questions to help you 
 4. **Question 4:** Valid parenthesis string.
 5. **Question 5:** Evaluate postfix expression.
 
-[See more...](stacks/README.md)
 
 ### Queues
 
@@ -55,7 +54,6 @@ This repository is a collection of 200 carefully selected questions to help you 
 4. **Question 4:** Sliding window maximum.
 5. **Question 5:** Rotten oranges.
 
-[See more...](queues/README.md)
 
 ### Strings
 
@@ -65,7 +63,6 @@ This repository is a collection of 200 carefully selected questions to help you 
 4. **Question 4:** String anagrams.
 5. **Question 5:** Longest palindromic substring.
 
-[See more...](strings/README.md)
 
 ### Arrays
 
@@ -75,7 +72,6 @@ This repository is a collection of 200 carefully selected questions to help you 
 4. **Question 4:** Find the duplicate number.
 5. **Question 5:** Sort an array of 0s, 1s, and 2s.
 
-[See more...](arrays/README.md)
 
 ### Heaps
 
@@ -85,7 +81,6 @@ This repository is a collection of 200 carefully selected questions to help you 
 4. **Question 4:** Merge k sorted arrays.
 5. **Question 5:** Top k frequent elements.
 
-[See more...](heaps/README.md)
 
 ### Hashmaps
 
@@ -95,7 +90,6 @@ This repository is a collection of 200 carefully selected questions to help you 
 4. **Question 4:** Subarray sum equals k.
 5. **Question 5:** Top k frequent words.
 
-[See more...](hashmaps/README.md)
 
 ### Matrices
 
@@ -105,7 +99,6 @@ This repository is a collection of 200 carefully selected questions to help you 
 4. **Question 4:** Set matrix zeroes.
 5. **Question 5:** Matrix multiplication.
 
-[See more...](matrices/README.md)
 
 ### Trees
 
@@ -115,7 +108,6 @@ This repository is a collection of 200 carefully selected questions to help you 
 4. **Question 4:** Level order traversal.
 5. **Question 5:** Lowest common ancestor.
 
-[See more...](trees/README.md)
 
 ## Contributing
 
