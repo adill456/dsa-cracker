@@ -1,3 +1,4 @@
+import { ListNode } from "../LinkedList/Implementation";
 class Stack {
     private stack: number[];
     private top: number = -1;
@@ -42,3 +43,58 @@ class Stack {
 }
 
 //  Implemenetation of Stack using linked list (Oct 29, 2024)
+class StackWithLinkedList {
+    private top: ListNode | null;
+
+    constructor() {
+        this.top = null;
+    }
+
+    push(element: number | string) {
+        const newNode = new ListNode(element);
+        newNode.next = this.top;
+        this.top = newNode;
+    }
+    pop(): number | string | null {
+        if (this.top === null) {
+            console.error('Stack is empty');
+            return null;
+        }
+        const element = this.top.value;
+        this.top = this.top.next;  // Update top to remove the popped node
+        return element;
+
+    }
+    peek() {
+        if (this.top === null) {
+            console.error('Stack is empty');
+            return null;
+        }
+        return this.top.value;
+    }
+
+    isEmpty() {
+        return this.top === null;
+    }
+
+    size() {
+        let count = 0;
+        let current = this.top;
+        while (current !== null) {
+            count++;
+            current = current.next;
+        }
+        return count;
+    }
+}
+
+
+const stack = new StackWithLinkedList()
+
+for (let i = 1; i <= 10; i++) {
+    stack.push(i);
+}
+
+console.log(stack.pop());
+console.log(stack.pop());
+console.log(stack.pop());
